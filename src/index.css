@@ -7,4 +7,28 @@
     .link{
         @apply text-blue-600
     }
+    .info{
+        @apply my-1
+    }
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 3px;
+}
+  
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+  
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #0556FF;
+    border-radius: 3px;
+}
+  
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #001529;
 }
